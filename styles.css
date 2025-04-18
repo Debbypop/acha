@@ -10,6 +10,7 @@
 
 body {
   font-family: '', san-serif;
+  text-rendering: optimizeLegibility;
 }
 
     
@@ -18,13 +19,16 @@ body {
 .navbar {
   position: fixed;
   top: 0;
-  margin-left: 300px;
   left: 0;
   right: 0;
   z-index: 3; 
   padding: 20px;
-  background: transparent; 
   font-family: 'boldtext';
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  backdrop-filter: blur(10px);
+  
 }
 
 .navbar ul {
@@ -38,7 +42,7 @@ body {
 }
 
 .navbar a {
-  color: #050605; 
+  color: #000000; 
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
@@ -75,7 +79,6 @@ body {
   
   .overlay {
     position: absolute;
-    margin-top: 50px;
     top: 0;
     left: 0;
     right: 0;
