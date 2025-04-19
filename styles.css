@@ -706,6 +706,34 @@ body {
 .container {
   display: flex;
   margin-top: 10px; 
+
+  .why-partner {
+    padding: 40px 10px;
+  }
+
+  .why-partner h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    padding: 15px;
+    max-width: 90%; 
+  }
+
+  .card img {
+    height: 50px; /* smaller image */
+    margin-bottom: 8px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
 }
 }
 
