@@ -510,3 +510,214 @@ body {
   line-height: 1.6;
 }
 
+/* Large tablets & small desktops */
+@media (max-width: 1024px) {
+  .navbar {
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .service-box {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-text {
+    margin-top: 50px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .team {
+    margin-left: 0;
+    align-items: center;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .navbar ul {
+    gap: 15px;
+  }
+
+  .hero-content {
+    margin-left: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .cta-button {
+    padding: 10px 50px;
+    font-size: 12px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-box {
+    flex: 1 1 80%;
+    max-width: 80%;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 20px;
+  }
+
+  .contact-container .right-section h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .about-section {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .about-content h1 {
+    font-size: 36px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row; /* Ensures items stay in a line */
+    gap: 12px;
+  }
+
+  .navbar li {
+    font-size: 14px; /* Smaller font */
+  }
+
+  /* Existing styles below */
+  .hero-content {
+    margin-left: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .cta-button {
+    padding: 10px 50px;
+    font-size: 12px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-box {
+    flex: 1 1 80%;
+    max-width: 80%;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 20px;
+  }
+
+  .contact-container .right-section h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .about-section {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .about-content h1 {
+    font-size: 36px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: row; /* Keep nav horizontal */
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .navbar li {
+    font-size: 12px; /* Smaller font for mobile */
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .cta-button {
+    padding: 10px 30px;
+    font-size: 12px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .service-box {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .left-text h1 {
+    font-size: 28px;
+    margin-left: 0;
+  }
+
+  .member {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .member img {
+    width: 100px;
+    height: 100px;
+  }
+}
