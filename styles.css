@@ -711,6 +711,8 @@ body {
 
   .why-partner {
     padding: 40px 10px;
+    display: inline
+    
   }
 
   .why-partner h2 {
