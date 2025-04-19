@@ -1,21 +1,31 @@
-// Get modal element, button, and close button
-const modal = document.getElementById('contactModal');
-const contactButton = document.getElementById('contactButton'); // The button that opens the modal
-const closeModal = document.getElementById('closeModal');
+// Get modal, button, and close button elements
+const contactButton = document.getElementById("contactButton");
+const modal = document.getElementById("contactModal");
+const closeModal = document.getElementById("closeModal");
 
-// When the user clicks the "CONTACT US" button, open the modal
-contactButton.addEventListener('click', function() {
-  modal.style.display = 'block';
-});
+// Open the modal when the contact button is clicked
+contactButton.onclick = function() {
+  modal.style.display = "flex"; // Show the modal
+}
 
-// When the user clicks the close button (x), close the modal
-closeModal.addEventListener('click', function() {
-  modal.style.display = 'none';
-});
+// Close the modal when the close button (×) is clicked
+closeModal.onclick = function() {
+  modal.style.display = "none"; // Hide the modal
+}
 
-// When the user clicks anywhere outside the modal content, close the modal
-window.addEventListener('click', function(event) {
-  if (event.target === modal) {
-    modal.style.display = 'none';
+// Close the modal if the user clicks outside of the modal content
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
   }
-});
+}
+// Handle the form submission
+function handleSubmit(event) {
+  event.preventDefault(); // Prevent the default form submission
+  
+  // You can submit the form data here (already handled by formsubmit.co, no additional AJAX needed)
+  
+  // Redirect the user to the next page after submission
+  window.location.href = 'nextpage.html'; // Replace 'nextpage.html' with the desired page URL
+}
+
