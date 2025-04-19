@@ -11,6 +11,7 @@
 body {
   font-family: '', san-serif;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
     
