@@ -940,6 +940,12 @@ body {
     font-size: 14px; /* Smaller font size for mobile */
   }
 }
+@media (max-width: 768px) {
+  .about-section {
+    margin-top: 0; /* Remove top margin on mobile */
+  }
+}
+
 
 @media (max-width: 480px) {
   .about-content h1 {
