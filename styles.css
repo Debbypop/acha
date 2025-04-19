@@ -918,3 +918,35 @@ body {
     justify-content: space-between; /* Align the navbar items with space between */
   }
 }
+
+@media (max-width: 768px) {
+  .about-content h1 {
+    font-size: 32px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .underline {
+    width: 60px;
+    height: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content h1 {
+    font-size: 24px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .underline {
+    width: 40px;
+    height: 3px;
+  }
+}
