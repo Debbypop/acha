@@ -942,7 +942,7 @@ body {
   }
 
   .about-content h1 {
-    font-size: 28px; /* Decrease font size for mobile */
+    font-size: 15px; /* Decrease font size for mobile */
   }
 
   .underline {
