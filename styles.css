@@ -652,7 +652,7 @@ body {
   .card p {
     font-size: 14px;
   }
-
+  
   .service-box {
     flex: 1 1 100%;
     max-width: 100%;
@@ -929,3 +929,27 @@ body {
     font-weight: normal;
   }
 }
+
+/* Mobile Responsiveness for Only Mobile Devices */
+@media (max-width: 480px) {
+  .about-section {
+    padding: 30px 10px;
+  }
+
+  .about-content h1 {
+    font-size: 28px; /* Decrease font size for mobile */
+  }
+
+  .underline {
+    width: 50px; /* Adjust underline width for mobile */
+  }
+
+  .about-content p {
+    font-size: 14px; /* Adjust paragraph size for mobile */
+  }
+
+  .highlight {
+    font-size: 12px; /* Optional: Adjust highlight text size */
+  }
+}
+
