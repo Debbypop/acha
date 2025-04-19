@@ -693,6 +693,10 @@ body {
     width: 100px;
     height: 100px;
   }
+  .logo-img {
+    height: 80px; 
+    margin-top: 10px; 
+}
 }
 
 @media (max-width: 768px) {
@@ -727,5 +731,7 @@ body {
     width: 60px;
     margin: 0 auto 20px auto;
   }
+
+  
 }
 
