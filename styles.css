@@ -702,12 +702,12 @@ body {
   }
 
   .navbar li {
-    font-size: 14px; /* Reduced font size for navbar items on mobile */
+    font-size: 5px; /* Reduced font size for navbar items on mobile */
     margin-right: 15px; /* Space between navbar items */
   }
 
   .navbar a {
-    font-size: 14px; /* Reduced font size for links on mobile */
+    font-size: 5px; /* Reduced font size for links on mobile */
   }
 }
 
