@@ -32,16 +32,35 @@
         <div class="contact-block">
           <p class="label">Email</p>
           <p class="Email">xxx.<span class="font-nf">@</span>achaglobal.com</p>
+          <button class="cta-button" id="contactButton">
+            CONTACT US TO REQUEST A CONSULTATION
+          </button>
         </div>
       </div>
-      <!-- Use mailto link styled as button -->
-      <a href="mailto:deborahpopoola337@gmail.com"
-         class="cta-button"
-         id="contactButton">CONTACT US TO REQUEST A CONSULTATION</a>
+      
     </div>
   </div>
   
 
+<!-- Modal Structure -->
+<div id="contactModal" class="modal">
+  <div class="modal-content">
+    <span class="close-button" id="closeModal">&times;</span>
+    <h2>Contact Form</h2>
+    <form id="consultationForm" action="https://formsubmit.co/deborahpopoola337@gmail.com" method="POST" enctype="multipart/form-data">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required placeholder="Full Name">
+    
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required placeholder="Email Address">
+    
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+    
+      <button type="submit" class="cta-button2">Submit Request</button>
+    </form>
+  </div>
+</div>
 
   
   <!-- Link to external JS file -->
