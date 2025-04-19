@@ -722,16 +722,16 @@ body {
   }
 
   .card img {
-    height: 30px; /* smaller image */
+    height: 20px; 
     margin-bottom: 8px;
   }
 
   .card h3 {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .card p {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.4;
   }
 }
