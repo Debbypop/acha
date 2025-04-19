@@ -632,6 +632,10 @@ body {
 
 /* Mobile phones */
 @media (max-width: 480px) {
+  
+  .navbar{
+    font-size: 20px;
+  }
  
   .hero-content h1 {
     font-size: 24px;
@@ -743,45 +747,67 @@ body {
  
 }
 
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .about-section {
-    height: auto; /* Allow section to adjust height on mobile */
-    padding: 40px 10px;
-  }
-
-  .about-content h1 {
-    font-size: 32px; /* Smaller font size on mobile */
-  }
-
-  .underline {
-    width: 60px; /* Smaller underline on mobile */
-    height: 4px;
-  }
-
-  .about-content p {
-    font-size: 16px; /* Smaller font size for paragraph */
-    line-height: 1.6;
-  }
-
-  .about-section::before {
-    margin-left: 20px; /* Adjust margin for the overlay */
-    margin-right: 20px;
-  }
+/* team styling */
+.team-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a clean look */
 }
 
-@media (max-width: 480px) {
-  .about-section {
-    padding: 20px 10px;
+/* Headings */
+.team-container h1 {
+  margin-top: 60px;
+  font-size: 2.0rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #1D792C; /* Green for the main header */
+}
+
+.team-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #1D792C; /* Green for subheadings */
+}
+
+/* Paragraph styling */
+.team-container p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #2f2f2f; /* Lighter grey for text */
+}
+
+/* Bold text styling */
+.bold {
+  font-weight: 0;
+  color: #060606; /* Green for bolded text */
+}
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .team-container {
+    padding: 1.5rem;
   }
 
-  .about-content h1 {
-    font-size: 24px; /* Even smaller font size on very small screens */
+  .team-container h1 {
+    font-size: 2rem;
   }
 
-  .about-content p {
-    font-size: 14px; /* Smaller font size for text on very small screens */
-    line-height: 1.5;
+  .team-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .team-container p {
+    font-size: 1rem;
   }
 }
 
