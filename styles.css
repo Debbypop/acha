@@ -354,8 +354,8 @@ body {
 
   
 .service-section {
-  padding-top: 20px; 
-  padding-bottom: 60px;
+  padding-top: 5px; 
+  padding-bottom: 20px;
   background-color: #f8f9f7; 
   min-height: 100vh; 
   display: flex;
@@ -696,6 +696,10 @@ body {
   .logo-img {
     height: 80px; 
     margin-top: 10px; 
+}
+
+.service-off {
+  font-size: 20px;
 }
 }
 
