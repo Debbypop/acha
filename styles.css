@@ -638,6 +638,9 @@ body {
   .overlay{
     width: 100%;
   }
+  .about-content h1 {
+    font-size: 30px;
+  }
  .about-content{
   font-size: 20px;
  }
