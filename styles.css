@@ -435,7 +435,7 @@ body {
 
 .container {
   display: flex;
-  margin-top: 100px; 
+  margin-top: 70px; 
   padding: 60px 40px;
   max-width: 1200px;
   gap: 60px;
@@ -702,6 +702,10 @@ body {
   font-size: 15px;
   justify-content: left;
   margin-left: 20px;
+}
+.container {
+  display: flex;
+  margin-top: 20px; 
 }
 }
 
