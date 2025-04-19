@@ -714,12 +714,12 @@ body {
   
  .why-partner {
   background-color: #d5d1ce;
-  padding: 60px 20px;
+  padding: 50px 20px;
   text-align: center;
 }
 
 .why-partner h2 {
-  font-size: 28px;
+  font-size: 20px;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -727,7 +727,7 @@ body {
 .card-container {
   display: flex;
   flex-wrap: wrap; 
-  gap: 30px; 
+  gap: 10px; 
   justify-content: center; 
 }
 
@@ -742,18 +742,18 @@ body {
 }
 
 .card img {
-  height: 80px;
+  height: 60px;
   margin-bottom: 10px;
 }
 
 .card h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   margin: 10px 0;
 }
 
 .card p {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.5;
 }
 .card-row {
