@@ -390,61 +390,7 @@ body {
   color: #060606; /* Green for bolded text */
 }
 
-/* Contact Form Styles */
-.contact-form-container {
-  display: none;
-  padding: 40px 20px;
-  background-color: #ffffff;
-  border-top: 2px solid #1D792C;
-}
 
-.contact-form-container h1 {
-  text-align: center;
-  color: #1D792C;
-  margin-bottom: 30px;
-}
-
-.contact-form {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.form-group {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.form-group label {
-  margin-bottom: 8px;
-  font-weight: 600;
-  color: #333;
-}
-
-.form-group input,
-.form-group textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
-  resize: none;
-}
-
-/* Submit Button */
-.submit-button {
-  background-color: #246c34;
-}
-/* Success Message Styling */
-.success-message {
-  background-color: #d4edda;
-  color: #155724;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 1.2em;
-}
 
 
 /* Responsive design */
