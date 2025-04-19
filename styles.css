@@ -709,7 +709,11 @@ body {
     font-size: 28px;
     margin-left: 0;
   }
-
+  .card-row {
+    align-content: center;
+    align-items: baseline;
+    display: flex;
+  }
   .member {
     flex-direction: column;
     align-items: center;
