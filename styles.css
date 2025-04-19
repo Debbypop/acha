@@ -708,38 +708,60 @@ body {
   margin-top: 10px; 
   
 }
-
-  .why-partner {
-    padding: 40px 10px;
-    display: inline
-    
-  }
-
-  .why-partner h2 {
-    font-size: 15px;
-    margin-bottom: 30px;
-  }
-
-  .card {
-    padding: 15px;
-    max-width: 90%; 
-  }
-
-  .card img {
-    height: 30px; 
-    margin-bottom: 8px;
-  }
-
-  .card h3 {
-    font-size: 12px;
-  }
-
-  .card p {
-    font-size: 10px;
-    line-height: 1.4;
-  }
 }
 
+ /* Why Partner Section */
+  
+ .why-partner {
+  background-color: #d5d1ce;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why-partner h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 30px; 
+  justify-content: center; 
+}
+
+.card {
+  background-color: transparent;
+  width: 100%;
+  max-width: 300px; /* Set a max-width for cards */
+  padding: 20px;
+  text-align: center;
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.card img {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.card-row {
+  align-content: center;
+  align-items: baseline;
+  display: flex;
+ 
+}
 
 @media (max-width: 768px) {
   .about-section {
