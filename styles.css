@@ -699,7 +699,9 @@ body {
 }
 
 .service-off {
-  font-size: 20px;
+  font-size: 10px;
+  justify-content: left;
+  margin-left: 20px;
 }
 }
 
