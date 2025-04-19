@@ -702,7 +702,7 @@ body {
   }
 
   .navbar li {
-    font-size: 10px; /* Reduced font size for navbar items on mobile */
+    font-size: 15px; /* Reduced font size for navbar items on mobile */
     margin-right: 15px; /* Space between navbar items */
   }
 
