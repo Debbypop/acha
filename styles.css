@@ -696,6 +696,10 @@ body {
   padding: 0; /* Reduced padding for mobile */
   justify-content: space-between; /* Align the navbar items with space between */
 }
+
+.navbar li {
+  font-size: 20px;
+}
 }
 
  /* Why Partner Section */
