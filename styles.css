@@ -691,16 +691,26 @@ body {
   margin-top: 10px; 
   
 }
-.navbar {
-  font-size: 5px;
-  padding: 0; /* Reduced padding for mobile */
-  justify-content: space-between; /* Align the navbar items with space between */
+  .navbar {
+    padding: 15px; /* Reduced padding for mobile */
+    justify-content: space-between; /* Align the navbar items with space between */
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row; /* Keep navbar items in a row */
+  }
+
+  .navbar li {
+    font-size: 14px; /* Reduced font size for navbar items on mobile */
+    margin-right: 15px; /* Space between navbar items */
+  }
+
+  .navbar a {
+    font-size: 14px; /* Reduced font size for links on mobile */
+  }
 }
 
-.navbar li {
-  font-size: 10px;
-}
-}
 
  /* Why Partner Section */
   
