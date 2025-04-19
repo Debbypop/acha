@@ -725,35 +725,36 @@ body {
     height: 100px;
   }
 }
-/* Mobile-specific About Section adjustments */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .about-section {
-    padding: 30px 10px;
+    flex-direction: column;
     height: auto;
-  }
-
-  .about-content h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  .underline {
-    width: 50px;
-    height: 3px;
-    margin: 0 auto 20px auto;
-  }
-
-  .about-content p {
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-    padding: 0 10px;
+    padding: 40px 20px;
+    background-attachment: scroll;
   }
 
   .about-section::before {
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0;
+    background: rgba(214, 212, 210, 0.95);
+  }
+
+  .about-content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .about-content h1 {
+    font-size: 32px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .underline {
+    height: 3px;
+    width: 60px;
+    margin: 0 auto 20px auto;
   }
 }
-
