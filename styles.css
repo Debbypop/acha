@@ -913,7 +913,7 @@ body {
 
 @media (max-width: 768px) {
   .navbar {
-    font-size: 5px;
+    font-size: 10px;
     padding: 0; /* Reduced padding for mobile */
     justify-content: space-between; /* Align the navbar items with space between */
   }
