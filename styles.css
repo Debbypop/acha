@@ -636,7 +636,7 @@ body {
 @media (max-width: 480px) {
   
   .overlay{
-    width: 80;
+    width: 100%;
   }
  .about-content{
   font-size: 20px;
