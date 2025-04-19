@@ -19,6 +19,19 @@
     </ul>
   </nav>
 
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="close" onclick="toggleMenu()">✕</div>
+  <ul class="nav-list">
+    <li><a href="#"><img src="/images/homelogo.png" class="nav-icon" />Home</a></li>
+    <li><a href="#"><img src="/images/about.png" class="nav-icon" />About</a></li>
+    <li><a href="#"><img src="/images/service.png" class="nav-icon" />Services</a></li>
+    <li><a href="#"><img src="/images/contact.png" class="nav-icon" />Contact</a></li>
+  </ul>
+</div>
+
   <!-- Hero Section -->
   <div class="hero-section">
     <div class="overlay"></div>
@@ -77,6 +90,13 @@
     </div>
   </div>
 </section>
+
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+    menu.classList.toggle("open");
+  }
+</script>
 
 </body>
 </html>
