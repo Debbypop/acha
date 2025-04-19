@@ -937,7 +937,7 @@ body {
   }
 
   .about-content h1 {
-    font-size: 20px; /* Decrease font size for mobile */
+    font-size: 28px; /* Decrease font size for mobile */
   }
 
   .underline {
@@ -945,7 +945,7 @@ body {
   }
 
   .about-content p {
-    font-size: 10px; /* Adjust paragraph size for mobile */
+    font-size: 14px; /* Adjust paragraph size for mobile */
   }
 
   .highlight {
