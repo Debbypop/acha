@@ -731,7 +731,20 @@ body {
     width: 60px;
     margin: 0 auto 20px auto;
   }
-
   
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px; 
+  }
+
+  .navbar ul {
+    gap: 15px; 
+  }
+
+  .navbar a {
+    font-size: 12px; 
+  }
 }
 
