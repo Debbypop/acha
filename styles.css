@@ -216,7 +216,7 @@ body {
 /* About Section */
 .about-section {
   position: relative;
-  background-image: url('/images/Aboutus.png'); 
+  background-image: url('/images/aboutus.png'); 
   background-size: cover; 
   background-position: center;
   background-attachment: fixed; 
