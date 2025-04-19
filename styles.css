@@ -706,6 +706,7 @@ body {
 .container {
   display: flex;
   margin-top: 10px; 
+  
 }
 
   .why-partner {
@@ -723,7 +724,7 @@ body {
   }
 
   .card img {
-    height: 10px; 
+    height: 30px; 
     margin-bottom: 8px;
   }
 
