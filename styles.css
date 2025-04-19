@@ -929,3 +929,24 @@ body {
     font-weight: normal;
   }
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .about-content h1 {
+    font-size: 36px; /* Smaller font size for mobile */
+  }
+
+  .about-content p {
+    font-size: 14px; /* Smaller font size for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content h1 {
+    font-size: 30px; /* Even smaller font size for very small screens */
+  }
+
+  .about-content p {
+    font-size: 12px; /* Even smaller font size for very small screens */
+  }
+}
