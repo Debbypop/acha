@@ -935,6 +935,11 @@ body {
   .about-section {
     padding: 30px 10px;
   }
+  .about-section::before {
+    margin-top: 40px; /* Adjust overlay margin */
+    margin-left: 10px; /* Increase overlay width */
+    margin-right: 10px; /* Increase overlay width */
+  }
 
   .about-content h1 {
     font-size: 28px; /* Decrease font size for mobile */
