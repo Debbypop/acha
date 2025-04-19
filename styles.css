@@ -635,15 +635,6 @@ body {
 /* Mobile phones */
 @media (max-width: 480px) {
   
-  .overlay{
-    width: 100%;
-  }
-  .about-content h1 {
-    font-size: 30px;
-  }
- .about-content{
-  font-size: 20px;
- }
   .hero-content h1 {
     font-size: 24px;
   }
@@ -681,6 +672,19 @@ body {
     text-align: center;
   }
 
+  .about-content h1 {
+    font-size: 26px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .underline {
+    width: 60px;
+    height: 3px;
+  }
   .member img {
     width: 100px;
     height: 100px;
