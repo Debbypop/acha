@@ -520,12 +520,12 @@ body {
 
   .navbar ul {
     flex-direction: row; /* Ensure nav items stay in a row */
-    gap: 10px;
+    gap: 5px;
     font-size: 14px; /* Smaller text on mobile */
   }
 
   .navbar li {
-    padding: 5px;
+    padding: 3px;
   }
 }
 
