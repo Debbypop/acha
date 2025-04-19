@@ -633,7 +633,9 @@ body {
 /* Mobile phones */
 @media (max-width: 480px) {
   
-  
+  .overlay{
+    width: 80;
+  }
  
   .hero-content h1 {
     font-size: 24px;
