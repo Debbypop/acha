@@ -510,3 +510,122 @@ body {
   line-height: 1.6;
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row; /* Keep items in one line */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .navbar ul {
+    flex-direction: row; /* Ensure nav items stay in a row */
+    gap: 5px;
+    font-size: 14px; /* Smaller text on mobile */
+  }
+
+  .navbar li {
+    padding: 3px;
+  }
+}
+
+.hero-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 28px;
+}
+
+.cta-button {
+  padding: 10px 40px;
+  font-size: 12px;
+}
+
+.card-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  max-width: 90%;
+}
+
+.about-section {
+  padding: 40px 20px;
+  height: auto;
+}
+
+.about-content h1 {
+  font-size: 30px;
+}
+
+.contact-container {
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.contact-container .left-section img {
+  width: 100%;
+}
+
+.service-section {
+  padding: 40px 20px;
+}
+
+.services-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-box {
+  max-width: 90%;
+}
+
+.container {
+  flex-direction: column;
+  padding: 40px 20px;
+  align-items: center;
+}
+
+.left-text {
+  margin-top: 0;
+  text-align: center;
+  margin-left: 0;
+}
+
+.left-text h1 {
+  margin-left: 0;
+  font-size: 28px;
+}
+
+.team {
+  margin-left: 0;
+  align-items: center;
+}
+
+.member {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.member img {
+  width: 100px;
+  height: 100px;
+}
+
+  .card-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
