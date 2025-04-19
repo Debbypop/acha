@@ -959,8 +959,11 @@ body {
   .about-content {
     padding: 10px;
   }
-  .overlay{
-    
+  
+  .about-section::before {
+   
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
