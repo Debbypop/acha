@@ -274,78 +274,84 @@ body {
   margin-bottom: 20px;
 }
 
-/*
-   Contact Us Section
-  */
-   .contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 40px;
-    background-color: #f8f9f7;
-    gap: 50px;
-    flex-wrap: wrap;
-    margin-top: 90px;
-  }
-  
-  .contact-container .left-section img {
-    width: 440px;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 6px;
-  }
-  
-  .contact-container .right-section {
-    max-width: 500px;
-  }
-  
-  .contact-container .right-section h1 {
-    color: #246c34;
-    font-size: 36px;
-    margin-bottom: 40px;
-  }
-  
-  .contact-container .contact-info {
-    display: flex;
-    gap: 60px;
-    margin-bottom: 60px;
-    flex-wrap: wrap;
-  }
-  
-  .contact-container .contact-block {
-    text-align: left;
-  }
-  
-  .contact-container .label {
-    font-weight: bold;
-    color: #246c34;
-    margin-bottom: 8px;
-    font-size: 16px;
-  }
-  
-  .contact-container .contact,
-  .contact-container .Email {
-    color: #e34234;
-    font-size: 16px;
-    font-weight: 500;
-  }
-  
-  .contact-container .cta-button {
-    padding: 15px 30px;
-    border: 2px solid #246c34;
-    background-color: transparent;
-    color: #000;
-    font-weight: 600;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-  }
-  
-  .contact-container .cta-button:hover {
-    background-color: #246c34;
-    color: #fff;
-  }
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 40px;
+  background-color: #f8f9f7;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  height: 100vh;
+}
+
+.contact-container .left-section img {
+  width: 440px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.contact-container .right-section {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-container .right-section h1 {
+  color: #246c34;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contact-container .contact-info {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-bottom: 30px; /* reduced spacing to move CTA closer */
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.contact-container .contact-block {
+  text-align: center;
+}
+
+.contact-container .label {
+  font-weight: bold;
+  color: #246c34;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.contact-container .contact,
+.contact-container .Email {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-container .cta-button {
+  padding: 15px 30px;
+  border: 2px solid #246c34;
+  background-color: transparent;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  align-self: center; /* centers the button horizontally */
+}
+
+.contact-container .cta-button:hover {
+  background-color: #246c34;
+  color: #fff;
+}
+
   
 
 /* Container styling */
