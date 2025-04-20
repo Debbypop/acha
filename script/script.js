@@ -3,8 +3,8 @@ const contactButton = document.getElementById("contactButton");
 const modal = document.getElementById("contactModal");
 const closeModalBtn = document.getElementById("closeModal");
 const form = document.getElementById("consultationForm");
-const thankYouModal = document.getElementById("thankYouModal"); // Updated
-const closeButtons = document.querySelectorAll(".close-button"); // All close buttons
+const thankYouModal = document.getElementById("thankYouModal");
+const closeButtons = document.querySelectorAll(".close-button");
 
 // Show contact form modal
 contactButton.onclick = () => {
@@ -21,6 +21,10 @@ window.onclick = (e) => {
 // Handle form submission
 form.addEventListener("submit", function (e) {
   e.preventDefault(); // Prevent default redirect
+  
+  // Show the thank-you modal immediately after form submission
+  modal.style.display = "none"; // Hide contact modal
+  thankYouModal.classList.add("show"); // Show thank-you modal with animation
 
   const formData = new FormData(form);
 
@@ -33,9 +37,10 @@ form.addEventListener("submit", function (e) {
   })
   .then(response => {
     if (response.ok) {
-      modal.style.display = "none"; // Hide contact modal
-      thankYouModal.style.display = "flex"; // Show thank-you modal
       form.reset(); // Reset form fields
+      setTimeout(() => {
+        closeThankYouModal(); // Close the thank-you modal after 2 seconds
+      }, 2000); // Adjust the time as needed
     } else {
       alert("Something went wrong. Please try again later.");
     }
@@ -52,7 +57,8 @@ function closeModal() {
   form.style.display = "block";
 }
 
-// Close thank-you modal
+// Close thank-you modal and scroll back to the contact form section
 function closeThankYouModal() {
-  thankYouModal.style.display = "none";
+  thankYouModal.classList.remove("show"); // Hide thank-you modal with animation
+  document.querySelector('.contact-container').scrollIntoView({ behavior: 'smooth' }); // Scroll back to the contact form
 }
