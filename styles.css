@@ -1258,85 +1258,40 @@ textarea {
 }
 
 @media (max-width: 768px) {
-  /* Contact Container */
   .contact-container {
-    padding: 30px 15px; /* Reduce padding for a cleaner look */
+    padding: 40px 20px; /* Reduce padding on mobile */
     height: auto; /* Allow container to adjust height */
     flex-direction: column; /* Stack elements vertically */
     justify-content: flex-start; /* Align elements to the top */
-    text-align: center; /* Center everything for better alignment */
   }
 
-  /* Left Section Image */
   .contact-container .left-section img {
     width: 100%; /* Make the image responsive */
-    max-width: 100%; /* Ensure full width */
+    max-width: 100%; /* Allow image to resize */
     height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Add space below image */
   }
 
-  /* Right Section */
   .contact-container .right-section {
     max-width: 100%; /* Ensure it takes full width on mobile */
-    text-align: center; /* Center the text */
-    align-items: center; /* Center all elements */
+    text-align: center; /* Center text */
+    align-items: center; /* Center all elements in right section */
   }
 
   .contact-container .right-section h1 {
     font-size: 28px; /* Adjust font size for mobile */
-    margin-bottom: 20px; /* Reduce bottom margin */
-    font-weight: 600; /* Bold the title */
-    color: #246c34; /* Maintain the brand color */
+    margin-bottom: 20px; /* Reduce margin */
   }
 
-  /* Contact Info */
   .contact-container .contact-info {
-    gap: 20px; /* Reduce gap between contact items */
+    gap: 30px; /* Reduce space between contact items */
     margin-bottom: 20px; /* Reduce bottom margin */
     flex-direction: column; /* Stack contact items vertically */
-    align-items: center; /* Center items horizontally */
-    padding: 0 10px; /* Add horizontal padding for smaller screens */
+    align-items: left; /* Center items horizontally */
   }
-
-  /* Contact Block (Phone/Email) */
-  .contact-container .contact-block {
-    text-align: center; /* Ensure everything inside the contact block is centered */
-  }
-
-  /* Labels for Contact Info (Phone/Email) */
-  .contact-container .label {
-    font-weight: bold;
-    color: #246c34; /* Keep the brand color */
-    margin-bottom: 5px; /* Reduce the gap between label and contact info */
-    font-size: 14px; /* Adjust label font size for mobile */
-  }
-
-  /* Contact Info (Phone/Email) */
-  .contact-container .contact,
-  .contact-container .Email {
-    color: #000000; /* Text color */
-    font-size: 16px; /* Increase font size slightly for better readability */
-    font-weight: 500; /* Slightly lighter text for easier reading */
-    margin-bottom: 15px; /* Add some space between contact items */
-  }
-
-  /* Call-to-Action Button */
-  .contact-container .cta-button {
-    width: 100%; /* Make the button full-width */
-    padding: 14px 20px; /* Adjust padding for better fit */
-    margin-top: 20px; /* Add some space on top of the button */
-    font-size: 16px; /* Increase font size for easier tapping */
-  }
-
-  .contact-container .cta-button:hover {
-    background-color: #246c34; /* Ensure the hover effect is consistent */
-    color: #fff; /* Change text color to white on hover */
-  }
-}
-
 
   .contact-container .cta-button {
     width: 100%; /* Make the button full width on mobile */
     padding: 12px 20px; /* Adjust padding for better fit */
     margin-top: 20px; /* Add some space on top of the button */
   }
+}
