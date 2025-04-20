@@ -1130,7 +1130,6 @@ textarea {
 
   @media (max-width: 768px) {
     .about-section {
-      background-attachment: scroll;
       padding: 40px 10px;
       min-height: 100vh; /* Optional: keep min height if you want full screen when content is short */
       height: auto; /* remove full screen height */
