@@ -1150,6 +1150,8 @@ textarea {
   
     .about-content h1 {
       font-size: 18px;
+      margin-top: -20px;
+      
     
     }
   
@@ -1157,8 +1159,7 @@ textarea {
 
       font-size: 12px;
       line-height: 2.0;
-      margin-top: -20px;
-     
+      
     }
   
     .underline {
