@@ -1124,18 +1124,14 @@ textarea {
 
 @media (max-width: 768px) {
   .about-section {
-    padding: 40px 15px;
-    background-attachment: scroll; /* Avoid janky scroll on mobile */
-    margin: 0;
+    padding: 40px 20px;
+    background-attachment: scroll;
   }
 
   .about-section::before {
-    margin: 0; /* Ensure full-width overlay */
-    background: rgba(214, 212, 210, 0.94);
-  }
-
-  .about-content {
-    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
   }
 
   .about-content h1 {
@@ -1149,8 +1145,8 @@ textarea {
   }
 
   .underline {
-    height: 4px;
-    width: 70px;
+    width: 60px;
+    height: 3px;
     margin-bottom: 24px;
   }
 }
