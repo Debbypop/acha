@@ -1227,6 +1227,9 @@ textarea {
   }
 
   .contact-container .cta-button {
+    padding: 10px 20px;  /* Smaller padding */
+    font-size: 12px;     /* Smaller text */
+    border-width: 1.5px; /* Optional: thinner border */
     align-self: flex-start;
   }
 }
