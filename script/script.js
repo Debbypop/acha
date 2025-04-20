@@ -38,9 +38,6 @@ form.addEventListener("submit", function (e) {
   .then(response => {
     if (response.ok) {
       form.reset(); // Reset form fields
-      setTimeout(() => {
-        closeThankYouModal(); // Close the thank-you modal after 2 seconds
-      }, 2000); // Adjust the time as needed
     } else {
       alert("Something went wrong. Please try again later.");
     }
@@ -57,8 +54,8 @@ function closeModal() {
   form.style.display = "block";
 }
 
-// Close thank-you modal and scroll back to the contact form section
+// Close thank-you modal when user clicks "Go Back" button
 function closeThankYouModal() {
   thankYouModal.classList.remove("show"); // Hide thank-you modal with animation
-  document.querySelector('.contact-container').scrollIntoView({ behavior: 'smooth' }); // Scroll back to the contact form
+  document.querySelector('.contact-container').scrollIntoView({ behavior: 'smooth' }); // Scroll back to the contact form section
 }
