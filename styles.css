@@ -1144,6 +1144,7 @@ textarea {
       margin-top: 50px;
       height: 100%; /* Make overlay match content height */
       width: auto;
+      overflow: hidden;
     }
   
     .about-content {
