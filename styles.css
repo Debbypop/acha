@@ -1286,7 +1286,7 @@ textarea {
     gap: 30px; /* Reduce space between contact items */
     margin-bottom: 20px; /* Reduce bottom margin */
     flex-direction: column; /* Stack contact items vertically */
-    align-items: center; /* Center items horizontally */
+    align-items: left; /* Center items horizontally */
   }
 
   .contact-container .cta-button {
