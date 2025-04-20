@@ -1123,15 +1123,12 @@ textarea {
 }
 
 @media (max-width: 768px) {
-  .about-section {
-    
-    background-attachment: scroll;
-  }
+  
 
   .about-section::before {
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 40px;
+    margin-top: 80px;
   }
 
   .about-content h1 {
