@@ -1257,7 +1257,6 @@ textarea {
   color: #fff;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
   .contact-container {
     padding: 40px 20px; /* Reduce padding on mobile */
@@ -1286,6 +1285,8 @@ textarea {
   .contact-container .contact-info {
     gap: 30px; /* Reduce space between contact items */
     margin-bottom: 20px; /* Reduce bottom margin */
+    flex-direction: column; /* Stack contact items vertically */
+    align-items: center; /* Center items horizontally */
   }
 
   .contact-container .cta-button {
@@ -1294,5 +1295,3 @@ textarea {
     margin-top: 20px; /* Add some space on top of the button */
   }
 }
-
-  
