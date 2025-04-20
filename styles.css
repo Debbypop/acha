@@ -1129,6 +1129,11 @@ textarea {
  
 
   @media (max-width: 768px) {
+    body, html {
+      overflow: hidden; /* disables scrolling */
+      height: 100vh;
+    }
+  
     .about-section {
       padding: 40px 10px;
       min-height: 100vh; /* Optional: keep min height if you want full screen when content is short */
