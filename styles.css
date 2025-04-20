@@ -1122,32 +1122,4 @@ textarea {
   }
 }
 
-@media (max-width: 768px) {
-  .about-section {
-    padding: 40px 20px;
-    background-attachment: scroll;
-  }
-
-  .about-section::before {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 40px;
-  }
-
-  .about-content h1 {
-    font-size: 28px;
-  }
-
-  .about-content p {
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 16px;
-  }
-
-  .underline {
-    width: 60px;
-    height: 3px;
-    margin-bottom: 24px;
-  }
-}
 
