@@ -1121,3 +1121,37 @@ textarea {
     transform: scale(1);
   }
 }
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 40px 15px;
+    background-attachment: scroll; /* Avoid janky scroll on mobile */
+    margin: 0;
+  }
+
+  .about-section::before {
+    margin: 0; /* Ensure full-width overlay */
+    background: rgba(214, 212, 210, 0.94);
+  }
+
+  .about-content {
+    max-width: 100%;
+  }
+
+  .about-content h1 {
+    font-size: 28px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .underline {
+    height: 4px;
+    width: 70px;
+    margin-bottom: 24px;
+  }
+}
+
