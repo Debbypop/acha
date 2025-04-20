@@ -3,17 +3,19 @@ const contactButton = document.getElementById("contactButton");
 const modal = document.getElementById("contactModal");
 const closeModalBtn = document.getElementById("closeModal");
 const form = document.getElementById("consultationForm");
-const thankYouMessage = document.getElementById("thankYouMessage");
+const thankYouModal = document.getElementById("thankYouModal"); // Updated
+const closeButtons = document.querySelectorAll(".close-button"); // All close buttons
 
-// Show modal when button is clicked
+// Show contact form modal
 contactButton.onclick = () => {
   modal.style.display = "flex";
 };
 
-// Close modal
+// Close contact form modal
 closeModalBtn.onclick = closeModal;
 window.onclick = (e) => {
   if (e.target === modal) closeModal();
+  if (e.target === thankYouModal) closeThankYouModal();
 };
 
 // Handle form submission
@@ -31,8 +33,9 @@ form.addEventListener("submit", function (e) {
   })
   .then(response => {
     if (response.ok) {
-      form.style.display = "none";
-      thankYouMessage.style.display = "block";
+      modal.style.display = "none"; // Hide contact modal
+      thankYouModal.style.display = "flex"; // Show thank-you modal
+      form.reset(); // Reset form fields
     } else {
       alert("Something went wrong. Please try again later.");
     }
@@ -42,10 +45,14 @@ form.addEventListener("submit", function (e) {
   });
 });
 
-// Reset and close modal
+// Close contact modal and reset
 function closeModal() {
   modal.style.display = "none";
   form.reset();
   form.style.display = "block";
-  thankYouMessage.style.display = "none";
+}
+
+// Close thank-you modal
+function closeThankYouModal() {
+  thankYouModal.style.display = "none";
 }
