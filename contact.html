@@ -49,7 +49,7 @@
     <h2>Contact Form</h2>
     <form id="consultationForm" action="https://formsubmit.co/deborahpopoola337@gmail.com" method="POST" enctype="multipart/form-data">
       <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you">
+      <input type="hidden" name="_next" value="https://www.achaglobal.com//thank-you">
    
       <label for="name">Full Name</label>
       <input type="text" id="name" name="name" required placeholder="Full Name">
@@ -63,14 +63,16 @@
       <button type="submit" class="cta-button2">Submit Request</button>
     </form>
     
-    <!-- Thank You Message -->
-<div id="thankYouMessage" class="thank-you-message">
-  <h2>Thank you for contacting us!</h2>
-  <p>We’ll get back to you shortly.</p>
-  <button class="go-back-button" onclick="closeModal()">Go Back</button>
-</div>
+   <!-- Thank You Modal -->
+<div id="thankYouModal" class="thank-you-modal">
+  <div class="modal-content">
+    <span class="close-button" onclick="closeThankYouModal()">&times;</span>
+    <h2>Thank you for contacting us!</h2>
+    <p>We’ll get back to you shortly.</p>
+    <button class="go-back-button" onclick="closeThankYouModal()">Go Back</button>
   </div>
 </div>
+
 
 
   
