@@ -274,83 +274,6 @@ body {
   margin-bottom: 20px;
 }
 
-.contact-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 80px 40px;
-  background-color: #f8f9f7;
-  gap: 50px;
-  flex-wrap: wrap;
-  margin-top: 70px;
-  height: 100vh;
-}
-
-.contact-container .left-section img {
-  width: 440px;
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 6px;
-}
-
-.contact-container .right-section {
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.contact-container .right-section h1 {
-  color: #246c34;
-  font-size: 36px;
-  margin-bottom: 40px;
-}
-
-.contact-container .contact-info {
-  display: flex;
-  gap: 60px;
-  justify-content: center;
-  margin-bottom: 30px; /* reduced spacing to move CTA closer */
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.contact-container .contact-block {
-  text-align: center;
-}
-
-.contact-container .label {
-  font-weight: bold;
-  color: #246c34;
-  margin-bottom: 8px;
-  font-size: 16px;
-}
-
-.contact-container .contact,
-.contact-container .Email {
-  color: #000000;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.contact-container .cta-button {
-  padding: 15px 30px;
-  border: 2px solid #246c34;
-  background-color: transparent;
-  color: #000;
-  font-weight: 600;
-  cursor: pointer;
-  text-transform: uppercase;
-  transition: all 0.3s ease;
-  align-self: center; /* centers the button horizontally */
-}
-
-.contact-container .cta-button:hover {
-  background-color: #246c34;
-  color: #fff;
-}
 
   
 
@@ -1181,7 +1104,6 @@ textarea {
   /* Default Styles */
 .contact-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 80px 40px;
   background-color: #f8f9f7;
@@ -1189,6 +1111,8 @@ textarea {
   flex-wrap: wrap;
   margin-top: 70px;
   height: 100vh;
+  justify-content: center;
+  
 }
 
 .contact-container .left-section img {
@@ -1203,15 +1127,17 @@ textarea {
   max-width: 500px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+ 
 }
 
 .contact-container .right-section h1 {
-  color: #246c34;
-  font-size: 36px;
-  margin-bottom: 40px;
+  color: #1D792C; /* Green color */
+  font-size: 36px; /* Font size */
+  margin-bottom: 40px; /* Space below */
+  width: 100%; /
+  
 }
+
 
 .contact-container .contact-info {
   display: flex;
@@ -1223,7 +1149,7 @@ textarea {
 }
 
 .contact-container .contact-block {
-  text-align: center;
+ text-align: start;
 }
 
 .contact-container .label {
@@ -1234,10 +1160,12 @@ textarea {
 }
 
 .contact-container .contact,
-.contact-container .Email {
+.contact-container .Email 
+ {
   color: #000000;
   font-size: 14px;
   font-weight: 500;
+  
 }
 
 .contact-container .cta-button {
@@ -1286,7 +1214,7 @@ textarea {
     gap: 30px; /* Reduce space between contact items */
     margin-bottom: 20px; /* Reduce bottom margin */
     flex-direction: column; /* Stack contact items vertically */
-    align-items: left; /* Center items horizontally */
+    align-items: center; /* Center items horizontally */
   }
 
   .contact-container .cta-button {
