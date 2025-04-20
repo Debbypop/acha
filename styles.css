@@ -993,6 +993,13 @@ textarea {
   margin-bottom: 5px;
 }
 
+@media (max-width: 768px) {
+  .contact-container .cta-button {
+    width: 100%;            /* Makes the button full width on small screens */
+    padding: 12px 20px;     /* Adjusts padding for better fit */
+  }
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   /* Adjust modal content width on smaller screens */
